@@ -5,3 +5,5 @@
 [node name="World" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 115, 62 )
+scale = Vector2( 0.2, 0.2 )
