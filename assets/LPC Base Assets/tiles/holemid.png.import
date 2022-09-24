@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/holemid.png-1837a9ab48c2f2a8960184cb2e0a5723.stex"
+path="res://.import/holemid.png-2f2aae0b1d5e8cc72855728ead65e9e0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/tiles/holemid.png"
-dest_files=[ "res://.import/holemid.png-1837a9ab48c2f2a8960184cb2e0a5723.stex" ]
+source_file="res://assets/LPC Base Assets/tiles/holemid.png"
+dest_files=[ "res://.import/holemid.png-2f2aae0b1d5e8cc72855728ead65e9e0.stex" ]
 
 [params]
 

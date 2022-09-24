@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bat.png-4c971c3b9dca79fd87f2680c8edefbc2.stex"
+path="res://.import/bat.png-41ef9798a566765a1de8265eeb55d7c2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/sprites/monsters/bat.png"
-dest_files=[ "res://.import/bat.png-4c971c3b9dca79fd87f2680c8edefbc2.stex" ]
+source_file="res://assets/LPC Base Assets/sprites/monsters/bat.png"
+dest_files=[ "res://.import/bat.png-41ef9798a566765a1de8265eeb55d7c2.stex" ]
 
 [params]
 

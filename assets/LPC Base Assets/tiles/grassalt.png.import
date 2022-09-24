@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/grassalt.png-660bac69e824c7a08ac083aa311b73d1.stex"
+path="res://.import/grassalt.png-6fde126a540ad075c7d269c88593ec25.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/tiles/grassalt.png"
-dest_files=[ "res://.import/grassalt.png-660bac69e824c7a08ac083aa311b73d1.stex" ]
+source_file="res://assets/LPC Base Assets/tiles/grassalt.png"
+dest_files=[ "res://.import/grassalt.png-6fde126a540ad075c7d269c88593ec25.stex" ]
 
 [params]
 

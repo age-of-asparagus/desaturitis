@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/man_eater_flower.png-a07b3df909d323fb59bd0344a47b6e33.stex"
+path="res://.import/man_eater_flower.png-4452c15abfd002b5568e76789ae47464.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/sprites/monsters/man_eater_flower.png"
-dest_files=[ "res://.import/man_eater_flower.png-a07b3df909d323fb59bd0344a47b6e33.stex" ]
+source_file="res://assets/LPC Base Assets/sprites/monsters/man_eater_flower.png"
+dest_files=[ "res://.import/man_eater_flower.png-4452c15abfd002b5568e76789ae47464.stex" ]
 
 [params]
 

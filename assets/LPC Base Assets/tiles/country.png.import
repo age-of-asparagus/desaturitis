@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/country.png-7db318ba76f252f6b6a4d5ce363461c6.stex"
+path="res://.import/country.png-96d6da857309fd047ac43808feec031b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/tiles/country.png"
-dest_files=[ "res://.import/country.png-7db318ba76f252f6b6a4d5ce363461c6.stex" ]
+source_file="res://assets/LPC Base Assets/tiles/country.png"
+dest_files=[ "res://.import/country.png-96d6da857309fd047ac43808feec031b.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ghost.png-3ce1072c815397218229a8e98eba81c4.stex"
+path="res://.import/ghost.png-5b6870a537a865f3ecf165a159b90495.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/sprites/monsters/ghost.png"
-dest_files=[ "res://.import/ghost.png-3ce1072c815397218229a8e98eba81c4.stex" ]
+source_file="res://assets/LPC Base Assets/sprites/monsters/ghost.png"
+dest_files=[ "res://.import/ghost.png-5b6870a537a865f3ecf165a159b90495.stex" ]
 
 [params]
 

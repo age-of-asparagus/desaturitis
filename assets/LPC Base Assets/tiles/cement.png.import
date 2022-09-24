@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cement.png-eb16d120cd3363a4de6c67b08c9bce00.stex"
+path="res://.import/cement.png-b804d2f58c4312192e3f16d17ff5cbd5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/tiles/cement.png"
-dest_files=[ "res://.import/cement.png-eb16d120cd3363a4de6c67b08c9bce00.stex" ]
+source_file="res://assets/LPC Base Assets/tiles/cement.png"
+dest_files=[ "res://.import/cement.png-b804d2f58c4312192e3f16d17ff5cbd5.stex" ]
 
 [params]
 
