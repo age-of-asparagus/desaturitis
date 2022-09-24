@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hairfemale.png-5e1faab700139cb406d80028fffe6299.stex"
+path="res://.import/hairfemale.png-37d1b3ef7b0fe9a840b1a64de421b83b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LPC Base Assets/sprites/people/hairfemale.png"
-dest_files=[ "res://.import/hairfemale.png-5e1faab700139cb406d80028fffe6299.stex" ]
+source_file="res://Assets/LPC Base Assets/sprites/people/hairfemale.png"
+dest_files=[ "res://.import/hairfemale.png-37d1b3ef7b0fe9a840b1a64de421b83b.stex" ]
 
 [params]
 

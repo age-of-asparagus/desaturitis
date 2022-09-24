@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var acceleration = 0
 var max_acceleration = 2
-var speed = 80
+var speed = 25
 var velocity = Vector2.ZERO
 var moving = false
 
@@ -31,7 +31,7 @@ func _physics_process(delta):
 		acceleration = 0
 		
 	if moving and acceleration < max_acceleration:
-		acceleration += .05
+		acceleration += .1
 	
 	
 	
