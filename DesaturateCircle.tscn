@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/terrain/feathered_circle_64.png" type="Texture" id=1]
+[ext_resource path="res://materials/desaturate_material.tres" type="Material" id=2]
+
+[node name="DesaturateCircle" type="Sprite"]
+material = ExtResource( 2 )
+position = Vector2( 88, 72 )
+texture = ExtResource( 1 )
