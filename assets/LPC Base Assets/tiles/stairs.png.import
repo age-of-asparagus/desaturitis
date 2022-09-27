@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stairs.png-db5681d0bd34aded3a59b9ba329c778a.stex"
+path="res://.import/stairs.png-b6fb27d1a0b85d932cafb95ecf88c010.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LPC Base Assets/tiles/stairs.png"
-dest_files=[ "res://.import/stairs.png-db5681d0bd34aded3a59b9ba329c778a.stex" ]
+source_file="res://Assets/LPC Base Assets/tiles/stairs.png"
+dest_files=[ "res://.import/stairs.png-b6fb27d1a0b85d932cafb95ecf88c010.stex" ]
 
 [params]
 

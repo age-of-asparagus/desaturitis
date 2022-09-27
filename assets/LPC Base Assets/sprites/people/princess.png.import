@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/princess.png-a9924fa67778f7f10d034152fbdf4996.stex"
+path="res://.import/princess.png-6d7ec60eff90e62f87b6c3c71a003601.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LPC Base Assets/sprites/people/princess.png"
-dest_files=[ "res://.import/princess.png-a9924fa67778f7f10d034152fbdf4996.stex" ]
+source_file="res://Assets/LPC Base Assets/sprites/people/princess.png"
+dest_files=[ "res://.import/princess.png-6d7ec60eff90e62f87b6c3c71a003601.stex" ]
 
 [params]
 

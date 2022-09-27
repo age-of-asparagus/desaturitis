@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/castlewalls.png-15fd3ffd9ac1dd7e8bce7334ef296c5b.stex"
+path="res://.import/castlewalls.png-2b7a86c8a7c2160c352feca2d7763a7f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LPC Base Assets/tiles/castlewalls.png"
-dest_files=[ "res://.import/castlewalls.png-15fd3ffd9ac1dd7e8bce7334ef296c5b.stex" ]
+source_file="res://Assets/LPC Base Assets/tiles/castlewalls.png"
+dest_files=[ "res://.import/castlewalls.png-2b7a86c8a7c2160c352feca2d7763a7f.stex" ]
 
 [params]
 
