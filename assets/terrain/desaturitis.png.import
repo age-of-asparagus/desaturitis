@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dirt.png-cfc99dcebd74b28968d739d19669cbe0.stex"
+path="res://.import/desaturitis.png-982fc8be7d0ce777214d3a15581fad23.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/terrain/dirt.png"
-dest_files=[ "res://.import/dirt.png-cfc99dcebd74b28968d739d19669cbe0.stex" ]
+source_file="res://assets/terrain/desaturitis.png"
+dest_files=[ "res://.import/desaturitis.png-982fc8be7d0ce777214d3a15581fad23.stex" ]
 
 [params]
 
