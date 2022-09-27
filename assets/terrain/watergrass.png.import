@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/watergrass.png-574b0c4b973f96d7e7e374d23e031d3d.stex"
+path="res://.import/watergrass.png-1e62b4d3211367a44e3cec8b65ad49c3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/terrain/watergrass.png"
-dest_files=[ "res://.import/watergrass.png-574b0c4b973f96d7e7e374d23e031d3d.stex" ]
+source_file="res://Assets/terrain/watergrass.png"
+dest_files=[ "res://.import/watergrass.png-1e62b4d3211367a44e3cec8b65ad49c3.stex" ]
 
 [params]
 

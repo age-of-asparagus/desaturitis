@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/feathered_circle_64.png-639dc4410fbe3b8282ef92184ee23d00.stex"
+path="res://.import/feathered_circle_64.png-2ef91e186a59848f375ae2b1afa4a66f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/terrain/feathered_circle_64.png"
-dest_files=[ "res://.import/feathered_circle_64.png-639dc4410fbe3b8282ef92184ee23d00.stex" ]
+source_file="res://Assets/terrain/feathered_circle_64.png"
+dest_files=[ "res://.import/feathered_circle_64.png-2ef91e186a59848f375ae2b1afa4a66f.stex" ]
 
 [params]
 
