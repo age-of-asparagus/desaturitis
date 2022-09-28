@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var can_move = true
 var player = null
-var move_distance = 0
+var move_distance = 1
 var speed = 90
 var direction = Vector2.ZERO
 var change_direction = true
@@ -12,8 +12,6 @@ func _ready():
 	rng.randomize()
 
 func _physics_process(delta):
-	
-	print(move_distance)
 	
 	if move_distance == 0:
 		if player != null:
