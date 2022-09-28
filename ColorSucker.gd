@@ -2,6 +2,7 @@ extends Node2D
 
 export (PackedScene) var DesaturateSprite
 export var size := 64.0
+export var seconds := 0.3
 
 
 var desaturation_material = preload("res://desaturation/desaturate_material.tres")
@@ -19,11 +20,14 @@ var current_scene : Node2D
 func _ready():
 	node_holder = get_or_create_holder()
 	current_scene = get_tree().current_scene
+	$Particles2D.process_material.set("emission_ring_radius", size/2)
+	$Particles2D.process_material.set("emission_ring_inner_radius", size/2.5)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	tick += 1
-	if tick % 30 == 0:
+	if tick % int(seconds*10) == 0:
+		tick = 0
 		var desaturation_sprite = DesaturateSprite.instance()
 		var scale = size / desaturation_sprite.texture.get_width()
 		desaturation_sprite.scale = Vector2(scale, scale)
