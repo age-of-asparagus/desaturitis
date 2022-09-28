@@ -1,7 +1,7 @@
 extends Node2D
 
 export (PackedScene) var DesaturateSprite
-export var radius := 256
+export var size := 64.0
 
 
 var desaturation_material = preload("res://desaturation/desaturate_material.tres")
@@ -25,7 +25,8 @@ func _process(delta):
 	tick += 1
 	if tick % 30 == 0:
 		var desaturation_sprite = DesaturateSprite.instance()
-#		desaturation_sprite.texture = mask
+		var scale = size / desaturation_sprite.texture.get_width()
+		desaturation_sprite.scale = Vector2(scale, scale)
 		desaturation_sprite.material = desaturation_sprite.material.duplicate()
 		desaturation_sprite.global_position = global_position
 		desaturation_sprite.rotation = rand_range(-PI, PI)
