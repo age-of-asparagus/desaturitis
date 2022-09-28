@@ -5,11 +5,32 @@ var max_acceleration = 2
 var speed = 25
 var velocity = Vector2.ZERO
 var moving = false
+
 onready var animationPlayer = $AnimationPlayer
 onready var animationTree = $AnimationTree
 onready var animationState = animationTree.get("parameters/playback")
 
+var state = MOVE
+
+enum{
+	MOVE,
+	ATTACK
+}
+
+func _ready():
+	animationTree.active = true
+
 func _physics_process(delta):
+	match state:
+		MOVE:
+			move_state()
+		
+		ATTACK:
+			attack_state()
+
+
+
+func move_state():
 	
 	velocity = Vector2.ZERO
 	
@@ -34,7 +55,7 @@ func _physics_process(delta):
 		acceleration = 0
 	
 	
-	if moving:
+	if velocity != Vector2.ZERO:
 		animationTree.set("parameters/Idle/blend_position", velocity)
 		animationTree.set("parameters/Run/blend_position", velocity)
 		animationState.travel("Run")
@@ -44,6 +65,15 @@ func _physics_process(delta):
 	if moving and acceleration < max_acceleration:
 		acceleration += .1
 	
-	
-	
 	velocity = move_and_slide(velocity.normalized() * speed * acceleration)
+	
+	if Input.is_action_just_pressed("Left_Click"):
+		state = ATTACK
+
+func attack_state():
+	print(velocity)
+	animationTree.set("parameters/Attack/blend_position", velocity)
+	animationState.travel("Attack")
+
+func attack_animation_finished():
+	state = MOVE

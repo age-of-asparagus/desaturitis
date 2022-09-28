@@ -11,11 +11,11 @@ radius = 5.0
 height = 14.0
 
 [sub_resource type="CircleShape2D" id=10]
-radius = 74.0
+radius = 190.011
 
 [sub_resource type="Animation" id=12]
 resource_name = "Move_Down"
-length = 0.6
+length = 1.2
 loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("Sprite:frame")
@@ -24,10 +24,24 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.2, 0.4 ),
+"times": PoolRealArray( 0, 0.4, 0.8 ),
 "transitions": PoolRealArray( 1, 1, 1 ),
 "update": 1,
 "values": [ 2, 3, 0 ]
+}
+tracks/1/type = "method"
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "can_move"
+} ]
 }
 
 [sub_resource type="Animation" id=11]
@@ -87,4 +101,9 @@ hframes = 3
 vframes = 4
 frame = 3
 
+[node name="Change_direction_timer" type="Timer" parent="."]
+one_shot = true
+
 [connection signal="body_entered" from="Player_detector" to="." method="_on_Player_detector_body_entered"]
+[connection signal="body_exited" from="Player_detector" to="." method="_on_Player_detector_body_exited"]
+[connection signal="timeout" from="Change_direction_timer" to="." method="_on_Change_direction_timer_timeout"]

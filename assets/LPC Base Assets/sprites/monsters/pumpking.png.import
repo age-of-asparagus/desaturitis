@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pumpking.png-ca8a1c8ae96e184e50fca5649386eace.stex"
+path="res://.import/pumpking.png-09282176a809ef6e638bb673296f7855.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LPC Base Assets/sprites/monsters/pumpking.png"
-dest_files=[ "res://.import/pumpking.png-ca8a1c8ae96e184e50fca5649386eace.stex" ]
+source_file="res://Assets/LPC Base Assets/sprites/monsters/pumpking.png"
+dest_files=[ "res://.import/pumpking.png-09282176a809ef6e638bb673296f7855.stex" ]
 
 [params]
 
