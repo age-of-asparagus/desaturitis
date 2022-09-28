@@ -18,5 +18,4 @@ position = Vector2( 89, 74 )
 
 [node name="ColorSucker" parent="YSort/Player" instance=ExtResource( 5 )]
 show_behind_parent = true
-size = 128.0
 seconds = 1.0

@@ -22,20 +22,28 @@ func _ready():
 	current_scene = get_tree().current_scene
 	$Particles2D.process_material.set("emission_ring_radius", size/2)
 	$Particles2D.process_material.set("emission_ring_inner_radius", size/2.5)
+	
+	suck_color()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	tick += 1
 	if tick % int(seconds*10) == 0:
 		tick = 0
-		var desaturation_sprite = DesaturateSprite.instance()
-		var scale = size / desaturation_sprite.texture.get_width()
-		desaturation_sprite.scale = Vector2(scale, scale)
-		desaturation_sprite.material = desaturation_sprite.material.duplicate()
-		desaturation_sprite.global_position = global_position
-		desaturation_sprite.rotation = rand_range(-PI, PI)
+#		suck_color()
+
 		
-		node_holder.add_child(desaturation_sprite)
+func suck_color():
+	var desaturation_sprite = DesaturateSprite.instance()
+	var scale = size / desaturation_sprite.texture.get_width()
+	desaturation_sprite.scale = Vector2(scale, scale)
+	desaturation_sprite.material = desaturation_sprite.material.duplicate()
+	desaturation_sprite.global_position = global_position
+	desaturation_sprite.rotation = rand_range(-PI, PI)
+	
+	$Timer.start()
+	$Particles2D.emitting = true
+	node_holder.add_child(desaturation_sprite)
 
 func get_or_create_holder():
 	node_holder = get_tree().current_scene.find_node("DesaturationHolder")
@@ -57,3 +65,16 @@ func get_or_create_holder():
 			get_tree().current_scene.call_deferred("move_child", node_holder, ysort.get_index())
 		
 	return node_holder
+
+
+func _on_Area2D_area_exited(area):
+	# should only detect DesaturationSprites
+	# make sure we aren't already in an sprite
+	if $Area2D.get_overlapping_areas().size() == 0:
+		suck_color()
+
+
+
+func _on_Timer_timeout():
+	print("stopped")
+	$Particles2D.emitting = false
