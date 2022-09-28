@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/desaturitis_mask_3x3.png-03a23f272a3b3626788fea1882e2d770.stex"
+path="res://.import/desaturitis_mask_3x3.png-812314a1ca8af796b386c86b7dd01eae.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/terrain/desaturitis_mask_3x3.png"
-dest_files=[ "res://.import/desaturitis_mask_3x3.png-03a23f272a3b3626788fea1882e2d770.stex" ]
+source_file="res://assets/terrain/desaturitis_mask_3x3.png"
+dest_files=[ "res://.import/desaturitis_mask_3x3.png-812314a1ca8af796b386c86b7dd01eae.stex" ]
 
 [params]
 

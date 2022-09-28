@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/male_hurt_pants.png-2502364dfeb6d4fdf9fc1c076c16c958.stex"
+path="res://.import/male_hurt_pants.png-dd0d10b7dc7e0f592336db59801fbd50.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/sprites/people/male_hurt_pants.png"
-dest_files=[ "res://.import/male_hurt_pants.png-2502364dfeb6d4fdf9fc1c076c16c958.stex" ]
+source_file="res://assets/LPC Base Assets/sprites/people/male_hurt_pants.png"
+dest_files=[ "res://.import/male_hurt_pants.png-dd0d10b7dc7e0f592336db59801fbd50.stex" ]
 
 [params]
 

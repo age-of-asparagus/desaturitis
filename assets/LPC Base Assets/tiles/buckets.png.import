@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/buckets.png-fc326e4f073af0ac777be157a95e8302.stex"
+path="res://.import/buckets.png-ff88378d835400692d9748662c99a0ea.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/tiles/buckets.png"
-dest_files=[ "res://.import/buckets.png-fc326e4f073af0ac777be157a95e8302.stex" ]
+source_file="res://assets/LPC Base Assets/tiles/buckets.png"
+dest_files=[ "res://.import/buckets.png-ff88378d835400692d9748662c99a0ea.stex" ]
 
 [params]
 
