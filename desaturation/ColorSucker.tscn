@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://desaturation/DesaturateSprite.tscn" type="PackedScene" id=1]
 [ext_resource path="res://ColorSucker.gd" type="Script" id=2]
+[ext_resource path="res://desaturation/particle1.png" type="Texture" id=3]
 
 [sub_resource type="Gradient" id=1]
 offsets = PoolRealArray( 0, 0.82449, 0.995918 )
@@ -30,7 +31,6 @@ gravity = Vector3( 0, 0, 0 )
 orbit_velocity = 0.0
 orbit_velocity_random = 0.05
 radial_accel = -200.0
-scale = 2.0
 color_ramp = SubResource( 2 )
 hue_variation = -0.32
 hue_variation_random = 0.32
@@ -47,3 +47,4 @@ lifetime = 0.5
 randomness = 0.1
 local_coords = false
 process_material = SubResource( 3 )
+texture = ExtResource( 3 )
