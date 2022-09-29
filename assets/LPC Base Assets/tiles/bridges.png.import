@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bridges.png-d88d1c9f068c69e23fbaa427b7136305.stex"
+path="res://.import/bridges.png-d3f2cde69d8f11faf2eff9f65cf9d932.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LPC Base Assets/tiles/bridges.png"
-dest_files=[ "res://.import/bridges.png-d88d1c9f068c69e23fbaa427b7136305.stex" ]
+source_file="res://Assets/LPC Base Assets/tiles/bridges.png"
+dest_files=[ "res://.import/bridges.png-d3f2cde69d8f11faf2eff9f65cf9d932.stex" ]
 
 [params]
 

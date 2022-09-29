@@ -71,7 +71,6 @@ func move_state():
 		state = ATTACK
 
 func attack_state():
-	print(velocity)
 	animationTree.set("parameters/Attack/blend_position", velocity)
 	animationState.travel("Attack")
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/male_spellcast.png-8761c9b4cb15260b8aaf4e6d68de2f2b.stex"
+path="res://.import/male_spellcast.png-eb9fb5baf051f3fa0cf99ccb019a51cb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LPC Base Assets/sprites/people/male_spellcast.png"
-dest_files=[ "res://.import/male_spellcast.png-8761c9b4cb15260b8aaf4e6d68de2f2b.stex" ]
+source_file="res://Assets/LPC Base Assets/sprites/people/male_spellcast.png"
+dest_files=[ "res://.import/male_spellcast.png-eb9fb5baf051f3fa0cf99ccb019a51cb.stex" ]
 
 [params]
 

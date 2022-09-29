@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dungeon.png-acc099ad75931b2f2cc8954ac01d0379.stex"
+path="res://.import/dungeon.png-23c00cef62301ce3a8d6020da6789143.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LPC Base Assets/tiles/dungeon.png"
-dest_files=[ "res://.import/dungeon.png-acc099ad75931b2f2cc8954ac01d0379.stex" ]
+source_file="res://Assets/LPC Base Assets/tiles/dungeon.png"
+dest_files=[ "res://.import/dungeon.png-23c00cef62301ce3a8d6020da6789143.stex" ]
 
 [params]
 

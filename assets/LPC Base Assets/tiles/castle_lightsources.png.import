@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/castle_lightsources.png-7b8bb05529117bcf6a2e59a3c8403718.stex"
+path="res://.import/castle_lightsources.png-1a44016f48f10798022f86c82adb9957.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LPC Base Assets/tiles/castle_lightsources.png"
-dest_files=[ "res://.import/castle_lightsources.png-7b8bb05529117bcf6a2e59a3c8403718.stex" ]
+source_file="res://Assets/LPC Base Assets/tiles/castle_lightsources.png"
+dest_files=[ "res://.import/castle_lightsources.png-1a44016f48f10798022f86c82adb9957.stex" ]
 
 [params]
 
