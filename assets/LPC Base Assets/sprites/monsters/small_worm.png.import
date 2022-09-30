@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/small_worm.png-4c2b66d08cdd94179525977146a79d64.stex"
+path="res://.import/small_worm.png-072990237151317c45bd4b1b64d02fbd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/sprites/monsters/small_worm.png"
-dest_files=[ "res://.import/small_worm.png-4c2b66d08cdd94179525977146a79d64.stex" ]
+source_file="res://assets/LPC Base Assets/sprites/monsters/small_worm.png"
+dest_files=[ "res://.import/small_worm.png-072990237151317c45bd4b1b64d02fbd.stex" ]
 
 [params]
 

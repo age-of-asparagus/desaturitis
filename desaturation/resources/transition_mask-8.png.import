@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/transition_mask-1.png-af020db24d8bb0d83d5187f0ce35265d.stex"
+path="res://.import/transition_mask-8.png-e6d16ff4ea2a073e1e688d1814960865.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://desaturation/transition_mask-1.png"
-dest_files=[ "res://.import/transition_mask-1.png-af020db24d8bb0d83d5187f0ce35265d.stex" ]
+source_file="res://desaturation/resources/transition_mask-8.png"
+dest_files=[ "res://.import/transition_mask-8.png-e6d16ff4ea2a073e1e688d1814960865.stex" ]
 
 [params]
 

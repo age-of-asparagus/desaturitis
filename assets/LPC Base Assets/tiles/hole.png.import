@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hole.png-cdee16d52fe6d88f59810c89a4b65492.stex"
+path="res://.import/hole.png-ba33cf766234b38aadbcedfa320fcbb5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/tiles/hole.png"
-dest_files=[ "res://.import/hole.png-cdee16d52fe6d88f59810c89a4b65492.stex" ]
+source_file="res://assets/LPC Base Assets/tiles/hole.png"
+dest_files=[ "res://.import/hole.png-ba33cf766234b38aadbcedfa320fcbb5.stex" ]
 
 [params]
 

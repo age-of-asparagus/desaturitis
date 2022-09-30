@@ -20,7 +20,7 @@ func _ready():
 
 func _physics_process(delta):
 	
-	print(can_change_direction)
+#	print(can_change_direction)
 	
 	if move_distance == 0 and can_change_direction:
 		can_change_direction = false

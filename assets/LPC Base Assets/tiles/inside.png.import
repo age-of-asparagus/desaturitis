@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/inside.png-2391245129f1a229b908578a77615a65.stex"
+path="res://.import/inside.png-f27e071b4b207bd0c626a900badb6846.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/tiles/inside.png"
-dest_files=[ "res://.import/inside.png-2391245129f1a229b908578a77615a65.stex" ]
+source_file="res://assets/LPC Base Assets/tiles/inside.png"
+dest_files=[ "res://.import/inside.png-f27e071b4b207bd0c626a900badb6846.stex" ]
 
 [params]
 

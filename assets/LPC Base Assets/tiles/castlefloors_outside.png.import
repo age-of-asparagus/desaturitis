@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/castlefloors_outside.png-e9ae14c7c30d15644bca2544dae587ad.stex"
+path="res://.import/castlefloors_outside.png-2603c6e2406cbeab0f467fd36543558a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/tiles/castlefloors_outside.png"
-dest_files=[ "res://.import/castlefloors_outside.png-e9ae14c7c30d15644bca2544dae587ad.stex" ]
+source_file="res://assets/LPC Base Assets/tiles/castlefloors_outside.png"
+dest_files=[ "res://.import/castlefloors_outside.png-2603c6e2406cbeab0f467fd36543558a.stex" ]
 
 [params]
 

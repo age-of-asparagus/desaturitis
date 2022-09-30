@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://desaturation/mask128px.png" type="Texture" id=1]
-[ext_resource path="res://desaturation/desaturate_material.tres" type="Material" id=2]
+[ext_resource path="res://desaturation/resources/mask64px.png" type="Texture" id=1]
+[ext_resource path="res://desaturation/resources/desaturate_material.tres" type="Material" id=2]
+[ext_resource path="res://desaturation/resources/DesaturateSprite.gd" type="Script" id=3]
 
 [sub_resource type="Animation" id=1]
 resource_name = "Fade"
@@ -13,13 +14,16 @@ tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
 "times": PoolRealArray( 0, 1 ),
-"transitions": PoolRealArray( 1, 1 ),
+"transitions": PoolRealArray( 1, 1.8025 ),
 "update": 0,
 "values": [ 0.0, 1.0 ]
 }
 
 [sub_resource type="Animation" id=2]
 length = 0.001
+
+[sub_resource type="Animation" id=4]
+resource_name = "Unfade"
 tracks/0/type = "value"
 tracks/0/path = NodePath(".:material:shader_param/fade")
 tracks/0/interp = 1
@@ -27,10 +31,24 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
 "update": 0,
-"values": [ 1.0 ]
+"values": [ 1.0, 0.0 ]
+}
+tracks/1/type = "method"
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 1 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "queue_free"
+} ]
 }
 
 [sub_resource type="CircleShape2D" id=3]
@@ -39,16 +57,20 @@ radius = 19.0
 [node name="DesaturateSprite" type="Sprite"]
 material = ExtResource( 2 )
 texture = ExtResource( 1 )
+script = ExtResource( 3 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "Fade"
 anims/Fade = SubResource( 1 )
 anims/RESET = SubResource( 2 )
+anims/Unfade = SubResource( 4 )
 
 [node name="Area2D" type="Area2D" parent="."]
 collision_layer = 1048576
-collision_mask = 0
+collision_mask = 2097152
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 scale = Vector2( 1, 1.01727 )
 shape = SubResource( 3 )
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]

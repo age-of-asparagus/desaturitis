@@ -5,7 +5,7 @@ export var size := 64.0
 export var seconds := 0.3
 
 
-var desaturation_material = preload("res://desaturation/desaturate_material.tres")
+var desaturation_material = preload("res://desaturation/resources/desaturate_material.tres")
 
 var desaturate_nodes: Array = []
 # Declare member variables here. Examples:
@@ -23,7 +23,7 @@ func _ready():
 	$Particles2D.process_material.set("emission_ring_radius", size/2)
 	$Particles2D.process_material.set("emission_ring_inner_radius", size/2.5)
 	
-	suck_color()
+	call_deferred("suck_color")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -43,7 +43,7 @@ func suck_color():
 	
 	$Timer.start()
 	$Particles2D.emitting = true
-	node_holder.add_child(desaturation_sprite)
+	node_holder.call_deferred("add_child", desaturation_sprite)
 
 func get_or_create_holder():
 	node_holder = get_tree().current_scene.find_node("DesaturationHolder")
@@ -70,11 +70,10 @@ func get_or_create_holder():
 func _on_Area2D_area_exited(area):
 	# should only detect DesaturationSprites
 	# make sure we aren't already in an sprite
+	print("exited!")
 	if $Area2D.get_overlapping_areas().size() == 0:
 		suck_color()
 
 
-
 func _on_Timer_timeout():
-	print("stopped")
 	$Particles2D.emitting = false

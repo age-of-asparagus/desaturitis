@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/shadow.png-1f4907c4f9cea0c855c00012b548638f.stex"
+path="res://.import/shadow.png-057b60866673dfde6b3274bf8ede0b9a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/UI/shadow.png"
-dest_files=[ "res://.import/shadow.png-1f4907c4f9cea0c855c00012b548638f.stex" ]
+source_file="res://assets/LPC Base Assets/UI/shadow.png"
+dest_files=[ "res://.import/shadow.png-057b60866673dfde6b3274bf8ede0b9a.stex" ]
 
 [params]
 

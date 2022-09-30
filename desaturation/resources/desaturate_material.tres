@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://desaturation/resources/desaturate.shader" type="Shader" id=1]
+[ext_resource path="res://desaturation/resources/transition_mask-8.png" type="Texture" id=2]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/fade = 1.0
+shader_param/reverse = false
+shader_param/mask = ExtResource( 2 )

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/particle1.png-71bee977c9312b030e5c219b7ac5f8bc.stex"
+path="res://.import/mask64px.png-f2dd3300cbd9c4dd259681a6722ee0c1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://desaturation/particle1.png"
-dest_files=[ "res://.import/particle1.png-71bee977c9312b030e5c219b7ac5f8bc.stex" ]
+source_file="res://desaturation/resources/mask64px.png"
+dest_files=[ "res://.import/mask64px.png-f2dd3300cbd9c4dd259681a6722ee0c1.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/slime.png-30111170cef3a13378d5c5113ffc6f5f.stex"
+path="res://.import/slime.png-691fbc7bce941d9cd122dba67297331b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/LPC Base Assets/sprites/monsters/slime.png"
-dest_files=[ "res://.import/slime.png-30111170cef3a13378d5c5113ffc6f5f.stex" ]
+source_file="res://assets/LPC Base Assets/sprites/monsters/slime.png"
+dest_files=[ "res://.import/slime.png-691fbc7bce941d9cd122dba67297331b.stex" ]
 
 [params]
 

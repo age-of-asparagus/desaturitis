@@ -79,6 +79,8 @@ Left_Click={
 2d_physics/layer_1="Player"
 2d_physics/layer_2="World"
 2d_physics/layer_3="Enemy"
+2d_physics/layer_21="DesaturationSprites"
+2d_physics/layer_22="ResaturationTrigger"
 
 [physics]
 
